@@ -39,19 +39,14 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}></p>
-        <h2 className={styles.sectionHeadText}>Why choose us?</h2>
+        <p className={styles.sectionSubText}>Who am I</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        We're not just any client acquisition company. We're your dedicated partner in growth.
-        With our AI-infused strategies and a personalized appointment setting team,
-        we secure 50-60 high-quality meetings for you within 2 months. Choose Btrex Media,
-        where technology meets personalized service, to supercharge your business development.
-      </motion.p>
+      >I'm a versatile frontend developer with expertise in TypeScript and JavaScript, specializing in frameworks such as React, Next.js, and Angular. My experience extends to backend technologies like Node.js and GraphQL. I thrive on collaborating closely with clients to deliver efficient, scalable, and user-friendly solutions that tackle real-world challenges. With a knack for quick learning, I'm adept at staying up-to-date with the latest industry trends. Let's join forces and transform your ideas into remarkable digital experiences!      </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
