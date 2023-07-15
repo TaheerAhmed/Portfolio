@@ -20,11 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import DashBoard from "./dash.gif";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
+import panda from "./panda.gif";
+import voicegpt from "./voicegpt.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -53,7 +53,9 @@ export {
   threejs,
   starbucks,
   tesla,
-  carrent,
+  DashBoard,
   jobit,
+  voicegpt,
+  panda,
   tripguide,
 };

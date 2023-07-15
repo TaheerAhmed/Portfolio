@@ -18,10 +18,12 @@ import {
   docker,
   starbucks,
   tesla,
-  carrent,
+  voicegpt,
   jobit,
   tripguide,
   threejs,
+  DashBoard,
+  panda,
 } from "../assets";
 
 export const navLinks = [
@@ -187,66 +189,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PandaDraw ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Developed 'PandaDraw' at GreedyGame, harnessing the power of in-house implementation, utilizing advanced techniques such as infinite scroll content and bespoke functionalities. This project was meticulously crafted using Next.js 13, leveraging the latest Next.js 13 app router. The application is built keeping performance and scalability in mind.",
     tags: [
       {
-        name: "react",
+        name: "Next.js 13",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Go Lang",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Vercel",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: panda,
+    // source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "CRM Dashboard",
+    description:
+      "An advanced Analytics Dashboard created withour using any third-party libraries leveraging React, Redux, having a suite of powerful features including a dynamic Date Picker, configurable drag and drop columns, reordering functionality, sorting, filters, and responsive design for seamless data exploration and analysis.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: DashBoard,
+    source_code_link: "https://github.com/TaheerAhmed/DataTableGG",
   },
   {
-    name: "Job IT",
+    name: "Voice GPT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Cutting-edge web application integrating OpenAI's LLMs via voice-to-chat interface, supporting multiple chat-saving functionalities and secure user authentication with Google OAuth",
     tags: [
       {
-        name: "react",
+        name: "Next.js 13",
+        color: "black-text-gradient",
+      },
+      {
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Open AI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: voicegpt,
     source_code_link: "https://github.com/",
   },
 ];
