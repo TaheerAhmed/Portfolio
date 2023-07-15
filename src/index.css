@@ -11,6 +11,8 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  overflow-y: inherit;
+  overflow-x: hidden;
 }
 
 .hash-span {
@@ -42,8 +44,8 @@
     rgba(60, 51, 80, 0) 100%
   );
 }
-.purple-color{
-  color:#915eff
+.purple-color {
+  color: #915eff;
 }
 .green-pink-gradient {
   background: "#00cea8";
