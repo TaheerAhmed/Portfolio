@@ -46,7 +46,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >I'm a versatile frontend developer with expertise in TypeScript and JavaScript, specializing in frameworks such as React, Next.js, and Angular. My experience extends to backend technologies like Node.js and GraphQL. I thrive on collaborating closely with clients to deliver efficient, scalable, and user-friendly solutions that tackle real-world challenges. With a knack for quick learning, I'm adept at staying up-to-date with the latest industry trends. Let's join forces and transform your ideas into remarkable digital experiences!      </motion.p>
+      >I'm a versatile frontend developer with expertise in TypeScript and JavaScript, specializing in frameworks such as <i>React, Next.js, and Angular</i>. My experience extends to backend technologies like <i>Node.js and GraphQL</i>. I thrive on collaborating closely with clients to deliver efficient, scalable, and user-friendly solutions that tackle real-world challenges. With a knack for quick learning, I'm adept at staying up-to-date with the latest industry trends. Let's join forces and transform your ideas into remarkable digital experiences!      </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
