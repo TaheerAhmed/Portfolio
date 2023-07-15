@@ -110,10 +110,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -254,7 +250,7 @@ const projects = [
       },
     ],
     image: voicegpt,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/TaheerAhmed/VoiceGPT",
   },
 ];
 
