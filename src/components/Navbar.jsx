@@ -46,7 +46,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-9 h-9 object-contain fill-white rounded-xl' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Taheer Ahmed &nbsp;
             <span className='sm:block hidden'> | App Specialist</span>
