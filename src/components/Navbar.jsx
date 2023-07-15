@@ -70,7 +70,11 @@ const Navbar = () => {
               navLinks.map((link, index = 0) => (<li
                 key={link.id}
                 className={`${active === link ? "text-white" : "text-secondary"} hover:text-white text-[28px] font-medium cursor-pointer`}
-                onClick={() => setActive(link.title)}
+                onClick={() => {
+                  setActive(link.title)
+                  setToggle(!toggle)
+                }
+                }
               >
                 <a href={`#${link.id}`} key={index += 1}>{link.title}</a>
               </li>))
