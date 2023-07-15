@@ -15,7 +15,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div className='overflow-hidden'>
           <h1
             className={`${styles.heroHeadText} `}
           >Hi ,I'm<span className='purple-color'>Taheer</span></h1>
