@@ -11,8 +11,6 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
-  overflow-y: inherit;
-  overflow-x: hidden;
 }
 
 .hash-span {
